@@ -33,6 +33,8 @@ Using the song and event datasets, I have created a star schema optimized for qu
 The project template includes four files:
 
 `create_table.py` -  is where I have created fact and dimension tables for the star schema in Redshift.
+
 `etl.py` is where i have load data from S3 into staging tables on Redshift and then process that data into your analytics tables on Redshift.
+
 `sql_queries.py` is where i have defined you SQL statements, which will be imported into the two other files above.
     
